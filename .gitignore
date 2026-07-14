@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local test/runtime scratch
+.test-tmp/
+.pytest-tmp/
+pytest-cache-files-*/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime state, logs, credentials, and OAuth material
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.log.*
+config.json
+startup-task.xml
+client_secret*.json
+credentials*.json
+token*.json
+*.ics
+
+# Windows
+Thumbs.db
+Desktop.ini
+
